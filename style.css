@@ -472,14 +472,10 @@ footer{
         padding: 0 6%;   
         position: relative;
         top: 5rem;    
-    }  
-  
-}
-@media (max-width: 680px){
-    .counte{
-        position: relative;
-        top: -11rem;
-    }
+    } 
+    .counte .box-container .box{
+        padding: 1.4rem;
+    }   
 }
 @media (max-width: 550px){
     .col-img img{
