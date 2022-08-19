@@ -7,6 +7,7 @@
     --top-color-mode: #062841e0;
     --bottom-color-mode: #00bbabb2;
 }
+
 .container {
     position: relative;
     width: 100%;
@@ -17,25 +18,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: -3rem; 
+    flex-direction: column;
+    margin-top: 3rem; 
   }
-  .container h1{
-    z-index: 100;
-    position: absolute;
-    top: 8rem;
-    color: var(--last-color);
+  .container h1{   
+    position: relative;
+    bottom: 8rem;
   }
-  .container h1:after{
-    position: absolute;
-    content: "";
-    width: 76px;
-    height: 0.18rem;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 1.8rem;
-    background: var(--last-color);
-  }
+  
   .form {
     width: 100%;
     max-width: 950px;
@@ -291,8 +281,8 @@
     transform: translate(181%, 11%);
     opacity: 0.2;
   }
-  /* @media (max-width: 1170px){
-    /* .container{
+  @media (max-width: 1170px){
+    .container{
         position: relative;
         top: rem;
         margin-top: 12%;
@@ -303,23 +293,15 @@
         z-index: 100;
         color: var(--last-color);
     }
-  }  */
+  }  
   @media (max-width: 850px) {
-    .container h1{
-        position: absolute;
-        top: 4rem;
-    }  
-    .boy-title{
-        position: absolute;
-        top: -3rem;
-        z-index: 100;
-        color: var(--last-color);
-    }
+     .container h1{
+       position: relative;
+       bottom: 5rem;
+     }
     .form {
       grid-template-columns: 1fr;
-      position: relative;
-      top: 3rem;
-    }
+     }
   
     .contact-info:before {
       bottom: initial;
@@ -337,14 +319,8 @@
     .square {
       transform: translate(140%, 43%);
       height: 350px;
-    }
-  
-    /* .big-circle {
-      bottom: 75%;
-      transform: scale(0.9) translate(-40%, 30%);
-      right: 50%;
-    }
-   */
+    }  
+   
     .text {
       margin: 1rem 0 1.5rem 0;
     }
@@ -355,10 +331,7 @@
   }
   
   @media (max-width: 480px) {
-    .container h1{
-        position: absolute;
-        top: 6rem;
-    }      
+    
     .contact-info:before {
       display: none;
     }

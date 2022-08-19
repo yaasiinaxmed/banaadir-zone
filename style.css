@@ -97,17 +97,18 @@ label #cancel{
 .qoraalka-dhaxe a{
     padding: 7px 30px;
     text-decoration: none;
-    border-radius: 5px;
-    border: 1px solid #fff;
-    color: #fff;
+    border-radius: 20px;
+    background: #fff;    
+    color: var(--last-color);
     cursor: pointer;    
     position: relative;
     top: 10px;
     transition: 1s;
 }
-.qoraalka-dhaxe a:hover{
-    background: var(--fast-color);
-   
+.qoraalka-dhaxe a:hover{ 
+   background: transparent; 
+   border: 1px solid #fff;
+   color: #fff;
 }
 .counte .box-container{
     display: grid;
@@ -170,7 +171,7 @@ label #cancel{
     left: 0;
     right: 0;
     margin: auto;
-    top: 8rem;
+    top: 6.6rem;
     background: var(--last-color);
 }
 .container-about{
@@ -473,6 +474,9 @@ footer{
         position: relative;
         top: 5rem;    
     } 
+    .counte .box-container{
+        margin-top: -4rem;
+    }
     .counte .box-container .box{
         padding: 1.4rem;
     }   
