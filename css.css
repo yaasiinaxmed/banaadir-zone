@@ -302,6 +302,11 @@
         color: var(--last-color);
     }
   }  
+  @media (max-width: 905px){
+    #my-form-status{
+        font-size: .8rem;
+    }
+}
   @media (max-width: 850px) {
      .container h1{
        position: relative;
@@ -380,4 +385,11 @@
     .btn {
       padding: 0.45rem 1.2rem;
     }
+
+    #my-form-status{
+      font-size: .6rem;
+      position: absolute;
+      bottom: 1.8rem;
+      left: 7rem;
+  }
   }

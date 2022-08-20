@@ -425,7 +425,11 @@ footer{
     .counter .box-container{
         margin-top: -16rem;
     }  
+    #my-form-status{
+        font-size: .7rem;
+    }
 }
+
 @media (max-width: 880px){
    
     label #menu{
