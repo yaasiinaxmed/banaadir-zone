@@ -272,7 +272,15 @@
     right: 50px;
     opacity: 0.3;
   } 
-   
+   #my-form-status{
+     text-align: center;    
+     margin-top: -1rem;
+     position: absolute;
+     bottom: 3rem;
+     left: 8rem;  
+     font-size: .9rem;   
+     color: #fff;
+   }
   .square {
     position: absolute;
     height: 400px;

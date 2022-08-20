@@ -220,7 +220,7 @@
                 <span class="circle one"></span>
                 <span class="circle two"></span>
       
-                <form action="index.html">
+                <form id="my-form" action="https://formspree.io/f/meqdqyev" method="POST">
                   <h3 class="title">Contact us</h3>
                   <div class="input-container">
                     <input type="text"  name="name" class="input">
@@ -228,7 +228,7 @@
                     <span>Name</span>
                   </div>
                   <div class="input-container">
-                    <input type="email" name="email" class="input" >
+                    <input type="email"  name="email" class="input" >
                     <label for="">Email</label>
                     <span>Email</span>
                   </div>                 
@@ -237,8 +237,9 @@
                     <label for="">Message</label>
                     <span>Message</span>
                   </div>                 
-                    <button class="btn" type="submit">Send</button>                  
-                </form>               
+                    <button class="btn" id="my-form-button" type="submit">Send</button>                  
+                </form>    
+                <p id="my-form-status"></p>           
             </div>
           </div>         
       </section> 
@@ -259,7 +260,7 @@
       </footer>          
    </section>       
 
-    <script src="main.js"></script>
+    <script type="text/javascript" src="main.js"></script>
 
 </body>
 </html>
