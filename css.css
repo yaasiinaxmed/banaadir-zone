@@ -21,10 +21,10 @@
     flex-direction: column;
     margin-top: 3rem; 
   }
-  .container h1{   
+.container h1{   
     position: relative;
     bottom: 8rem;
-  }
+  } 
   
   .form {
     width: 100%;

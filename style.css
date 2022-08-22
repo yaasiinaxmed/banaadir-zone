@@ -141,8 +141,10 @@ label #cancel{
 }
 .counte .box-container .box .content  h3{
     font-size: 2rem;
-    color: var(--fast-color);
+    color: var(--fast-color);   
 }
+
+
 .counte .box-container .box .content p{
     font-size: 1.6rem;
     color: var(--second-color);
@@ -157,22 +159,15 @@ label #cancel{
     min-height: 90vh;
     background: #fff;
 }
-.section-title{
-    text-align: center;
-    padding-top: 70px;
-    color: var(--last-color);
-    position: relative;
+.heading-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.section-title:after{
-    position: absolute;
-    content: "";
-    width: 76px;
-    height: 0.18rem;
-    left: 0;
-    right: 0;
-    margin: auto;
-    top: 6.6rem;
-    background: var(--last-color);
+.section-title{
+    padding-top: 70px; 
+    color: var(--last-color);
+    border-bottom: 3px solid var(--last-color);
 }
 .container-about{
     display: flex;
@@ -506,6 +501,6 @@ footer{
         padding: 0 6%;   
         position: relative;
         top: 5rem;    
-    }  
-    
+    } 
+
 }
