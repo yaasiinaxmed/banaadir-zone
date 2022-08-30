@@ -6,6 +6,11 @@
     font-family: 'Capriola', sans-serif;
     font-family: 'poppins' , sans-serif;
 }
+*::selection{
+    background-color: seagreen;
+    opacity: 0.2;
+    color: white;
+}
 
 /* colors  */
 :root{
