@@ -83,3 +83,13 @@ async function handleSubmit(event) {
   });
 }
 form.addEventListener("submit", handleSubmit)
+
+
+//loader with javascript with custom time
+		var loader = document.getElementById("prelader");
+
+		window.addEventListener("load", function () {
+			setTimeout(function () {
+				loader.style.display = "none";
+			},5000)
+		})
